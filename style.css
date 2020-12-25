@@ -33,6 +33,8 @@ body{
 }
 #pad{
     background-color: royalblue;
+    margin-left:auto;
+    margin-right:auto;
 }
 button{
     width: 7vw;
