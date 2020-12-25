@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right,rgb(147, 236, 29),rgba(21, 247, 247, 0.7));
+}
+
+#calc{
+    border: 1vw solid rgb(61, 151, 235);
+    margin: auto;
+    height: 45vw;
+    width: 33vw;
+    position: relative;
+    margin-top: 1vw;
+    background-color:rgb(224, 121, 121);
+}
+
+#result{
+    border:1vw solid black;
+    height: 7vw;
+    margin:0.5vw;
+    padding-bottom:2vw;
+    background-color: rgba(0,0,0,0.7);
+    font-style: inherit;
+    color: lavender;
+}
+#history{
+    font-size: 1.5vw;
+}
+#ans{
+    font-size:2.5vw;
+    text-align: right;
+    position: relative;
+    
+}
+#pad{
+    background-color: royalblue;
+}
+button{
+    width: 7vw;
+    height: 7vw;
+    float:left;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-right:0.5vw;
+    font-size: 3vw;
+    border-radius: 50%;
+    border-width: 0px;
+    
+    background-color: rgba(240, 195, 203,0.7);
+   
+}
+button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
